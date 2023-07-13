@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a.css">
+    <link rel="stylesheet" href="a1.css">
+    <style>
+        .hmenu {
+            border-radius: 5px;
+            background-color: orangered;
+            height: 40px;
+            list-style: none;
+        }
+        
+        ul.hmenu>li {
+            float: left;
+            margin: 0 10px;
+            position: relative;
+        }
+        
+        ul.hmenu>li>a {
+            color: white;
+            text-decoration: none;
+            line-height: 40px;
+            font-size: 20px;
+            clear: both;
+            font-variant: small-caps;
+        }
+        
+        ul.hmenu>li>a:hover {
+            clear: both;
+            color: yellow;
+            text-decoration: underline;
+        }
+        
+        ul.hmenu>li:hover>.sub-menu {
+            display: block;
+        }
+        
+        .sub-menu {
+            padding: 0px;
+            margin: 0px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px orangered;
+            list-style: none;
+            width: 150px;
+            position: absolute;
+            background-color: white;
+            display: none;
+        }
+        
+        .sub-menu>li>a {
+            text-decoration: none;
+            line-height: 30px;
+            padding-left: 10px;
+            font-size: x-large;
+            color: orangered;
+            border-bottom: 1px dotted orangered;
+            display: block;
+        }
+        
+        .sub-menu>li>a:hover {
+            color: white;
+            font-weight: bolder;
+            background-color: orangered;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <img src="fpt.png " height="100px " />
+
+        <ul class="hmenu">
+            <li> <a href="#6 ">Giao diện chính</a></li>
+            <li><a href="#7 ">Quản lý nhân viên</a></li>
+            <li><a href="#10 ">Quản lý học viên</a></li>
+            <li><a href="#11 ">Quản lý chuyên đề</a></li>
+            <li><a href="#11 ">Quản lý người học</a></li>
+            <li><a href="#11 ">Quản lý khóa học</a></li>
+            <li><a href="#">Tổng hợp thống kê</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Bảng điểm</a></li>
+                    <li><a href="#">Doanh thu</a></li>
+                    <li><a href="#">Người học </a></li>
+                    <li><a href="#">Khóa học</a></li>
+                </ul>
+            </li>
+    </div>
+    <div>
+        <h1>HỆ THỐNG QUẢN LÝ ĐÀO TẠO</h1>
+        <img src="fpoly.png.jpg " alt=" " height="300px " width="300px " align=left style="margin-right:20px "> -Trung tâm đào tạo tin học ngắn hạn LapTrinhCity đang đào tạo các khóa tin học ngắn hạn theo chuyên đề như Photoshop, Java, Web,...
+        <br>
+        -Việc quản lý khoá học, học viên, bảng điểm và doanh thu đang thực hiện thông qua excel. Hiện Trung tâm đang gặp khó khăn khi số lượng người học ngày một nhiều, dữ liệu ngày càng lớn nên việc quản lý excel gặp rất nhiều khó khăn, dễ sai sót mà không bảo mật.
+        <br>Các yêu cầu : <br>
+        LapTrinhCity mong muốn xây dựng một phần mềm để giải quyết khó khăn trên.
+        <br>	
+        Xây dựng một phần mềm chạy trên desktop viết bằng Java làm việc với CSDL SQL Server 2008 đáp ứng được các yêu cầu các chức năng nghiệp vụ của khách hàng đã đặt ra. Ngoài việc đáp ứng về mặt nghiệp vụ, dự án phần mềm cần đáp ứng các yêu cầu kỹ thuật sau đây.
+        <br>
+        Về nghiệp vụ :Quản lý người đăng ký học ,Quản lý các chuyên đề , Quản lý các khóa học được tạo ra từ các chuyên đề, Quản lý học viên của các khóa học, Tổng hợp bảng điểm của các khóa học, Thống kê doanh thu, số lượng người học từng chuyên đề theo năm , Tổng hợp số lượng người học đăng ký theo tháng
+        <br>
+        Về bảo mật :
+        <br>-Tất cả mọi thành viên phải đăng nhập mới sử dụng được phần mềm 
+        <br>-Trưởng phòng đào tạo được phép thực hiện tất cả 
+        <br>-Nhân viên phòng đào tạo không được phép xóa và không được xem thông tin về doanh thu
+
+
+    </div>
+
+
+
+</body>
+
+</html>
